@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int x;
+	printf("Enter a number from 1-5 to get your favourite food ordered : ");
+	scanf("%d", &x);
+	
+	switch(x)
+	{
+		case 1: printf("Food item - Burger \nRs 129\n");
+		break;
+		case 2 :printf("Food item - French Fries \nRs 99\n");
+		break;
+		case 3:printf("Food item - Pizza \nRs 239\n");
+		break;
+		case 4:printf("Food item - Sandwich \nRs 149\n");
+		break;
+		case 5:printf("Food item - Pasta \nRs 179\n");
+		break;
+	
+	default : printf("you have pressed an invalid key, please press a key from 1-5");
+	
+}
+	
+} 
